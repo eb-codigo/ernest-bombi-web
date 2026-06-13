@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ernest Bombí</title>
+  <meta name="description" content="Ernest Bombí — músico, creativo y cowboy digital." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════ -->
+  <nav class="nav">
+    <span class="nav-logo">E·B</span>
+    <ul class="nav-links">
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#musica">Música</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Menú">☰</button>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">✦ Música · Creatividad · Sombrero</p>
+      <h1 class="hero-name">Ernest<br /><em>Bombí</em></h1>
+      <p class="hero-tagline">
+        No busco el éxito. Lo rastro.<br />
+        Con sombrero, con teléfono y con mucha paciencia.
+      </p>
+      <a href="#musica" class="btn-primary">Escucha algo</a>
+    </div>
+
+    <div class="hero-character">
+      <!-- Sustituye hero.jpg por tu imagen real -->
+      <img
+        src="images/hero.jpg"
+        alt="Ernest Bombí, cowboy digital"
+        class="character-img"
+      />
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SOBRE MÍ
+  ═══════════════════════════════════════ -->
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="sobre-grid">
+      <div class="sobre-character">
+        <img
+          src="images/pose-dinamica.jpg"
+          alt="Ernest en acción"
+          class="character-img character-float"
+        />
+      </div>
+      <div class="sobre-text">
+        <p class="section-eyebrow">Sobre mí</p>
+        <h2>Cowboy del siglo XXI.<br />Sin caballo, con Wi-Fi.</h2>
+        <p>
+          Soy Ernest Bombí. Músico, explorador de ideas y firmemente convencido
+          de que el sombrero mejora cualquier situación — incluidas las
+          reuniones de Zoom.
+        </p>
+        <p>
+          Me muevo entre la música, la tecnología y la creatividad. No siempre
+          sé exactamente hacia dónde voy, pero siempre apunto hacia arriba.
+          Literalmente.
+        </p>
+        <!-- Añade aquí tus redes sociales -->
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">Instagram</a>
+          <a href="#" class="social-link" aria-label="YouTube">YouTube</a>
+          <a href="#" class="social-link" aria-label="Spotify">Spotify</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       SEPARADOR DESIERTO
+  ═══════════════════════════════════════ -->
+  <div class="desert-banner">
+    <img src="images/desierto.jpg" alt="Ernest en el desierto" class="desert-img" />
+    <div class="desert-overlay">
+      <p class="desert-quote">"En el desierto digital,<br />yo tengo señal."</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       MÚSICA
+  ═══════════════════════════════════════ -->
+  <section class="musica" id="musica">
+    <p class="section-eyebrow">Música</p>
+    <h2>Lo que suena<br />en mi cabeza</h2>
+
+    <div class="tracks-grid">
+      <!-- Repite este bloque por cada canción -->
+      <div class="track-card">
+        <div class="track-num">01</div>
+        <div class="track-info">
+          <p class="track-title">Título de canción</p>
+          <p class="track-meta">2024 · Single</p>
+        </div>
+        <a href="#" class="track-play">▶</a>
+      </div>
+
+      <div class="track-card">
+        <div class="track-num">02</div>
+        <div class="track-info">
+          <p class="track-title">Otra canción</p>
+          <p class="track-meta">2024 · EP</p>
+        </div>
+        <a href="#" class="track-play">▶</a>
+      </div>
+
+      <div class="track-card coming-soon">
+        <div class="track-num">03</div>
+        <div class="track-info">
+          <p class="track-title">Próximamente…</p>
+          <p class="track-meta">En proceso</p>
+        </div>
+        <span class="track-play muted">♪</span>
+      </div>
+    </div>
+
+    <!-- Si tienes embed de Spotify/SoundCloud, pégalo aquí -->
+    <!-- <iframe src="..." ...></iframe> -->
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACTO
+  ═══════════════════════════════════════ -->
+  <section class="contacto" id="contacto">
+    <p class="section-eyebrow">Contacto</p>
+    <h2>¿Hablamos?</h2>
+    <p class="contacto-sub">
+      Colaboraciones, preguntas existenciales<br />o simplemente decir hola.
+    </p>
+    <a href="mailto:tu@email.com" class="btn-primary">Escribir un email</a>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <p>© 2025 Ernest Bombí · Hecho con sombrero y código</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
